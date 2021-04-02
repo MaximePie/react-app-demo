@@ -1,9 +1,9 @@
 // Importing Variables
-@import "spacing";
-@import "colors";
+@import "variables/spacing";
+@import "variables/colors";
 
 // Importing components
-@import "Button";
-@import "Card";
-@import "Login";
-@import "Welcome";
+@import "atoms/Button";
+@import "molecules/Card";
+@import "pages/Login";
+@import "pages/Welcome";
