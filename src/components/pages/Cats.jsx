@@ -15,6 +15,10 @@ export default function Cats() {
     </div>
   );
 
+  /**
+   * La fonction récupère des chats et met à jour le state en appelant la méthode getCats de server
+   * @param type String qui représente le type de la photo souhaitée. (png, ou gif)
+   */
   function fetchCats(type = 'png') {
     getCats(type).then(response => {
       setCats(response.data[0]);
