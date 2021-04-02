@@ -10,6 +10,9 @@ export default function Navigation() {
       <NavLink to='/welcome'>
         Welcome
       </NavLink>
+      <NavLink to='/cats'>
+        Cats
+      </NavLink>
     </div>
   );
 }

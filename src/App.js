@@ -3,6 +3,7 @@ import '../node_modules/@fortawesome/fontawesome-free/js/all.min';
 
 import Login from "./components/pages/Login";
 import Welcome from "./components/pages/Welcome";
+import Cats from "./components/pages/Cats";
 import Navigation from "./components/molecules/Navigation";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path='/welcome'>
             <Welcome/>
+          </Route>
+          <Route path='/cats'>
+            <Cats/>
           </Route>
         </Switch>
       </div>
