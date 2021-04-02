@@ -1,0 +1,10 @@
+.Button {
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 8px 16px;
+  border-radius: 8px;
+
+  background-color: $secondaryColor;
+  color: $primaryColor;
+}

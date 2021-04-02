@@ -1,4 +1,8 @@
 .Login {
   border: solid;
-  margin: 1em;
+  margin: $defaultSpacing;
+
+  &__header {
+    color: $primaryColor;
+  }
 }
