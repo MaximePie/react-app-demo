@@ -1,4 +1,6 @@
 import './style/App.scss';
+import '../node_modules/@fortawesome/fontawesome-free/js/all.min';
+
 import Login from "./components/pages/Login";
 import Welcome from "./components/pages/Welcome";
 import Navigation from "./components/molecules/Navigation";
@@ -8,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h2>Êtes-vous prêt.e à faire de grandes choses en React ?</h2>
+        <h2>Êtes-vous prêt.e à faire de grandes choses en React ? <i className="fas fa-atom"></i></h2>
         <Navigation/>
         <Switch>
           <Route path='/login'>
