@@ -7,4 +7,8 @@
 
   background-color: $secondaryColor;
   color: $primaryColor;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
